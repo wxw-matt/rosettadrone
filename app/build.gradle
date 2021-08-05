@@ -5,11 +5,14 @@ android {
     defaultConfig {
         applicationId "sq.rogue.rosettadrone"
         minSdkVersion 23
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 1
         versionName "1.2.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
+    }
+    lintOptions {
+        abortOnError false
     }
 
     buildTypes {
